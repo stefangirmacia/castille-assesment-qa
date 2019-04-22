@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Suite -->
+<suite name="Suite" verbose="2" preserve-order="true">
+	<!-- Test -->
+    <test name="Test Carers">
+    	<!-- 
+        <packages>
+            <package name="testsuites" />
+        </packages>
+        -->   
+        <classes>
+        	<class name="api_testsuites.Requests"/>
+            <class name="selenium_testsuites.TestLogin"/>
+            <class name="appium_testsuites.GoogleCalculatorTest"/>
+        </classes>
+    </test> 
+</suite> 
